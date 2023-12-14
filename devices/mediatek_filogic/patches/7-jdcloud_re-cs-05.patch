@@ -17,7 +17,7 @@ new file mode 100644
 index 0000000000000..00b4c79c6bf8f
 --- /dev/null
 +++ b/target/linux/mediatek/dts/mt7986a-jdcloud-re-cs-05.dts
-@@ -0,0 +1,281 @@
+@@ -0,0 +1,275 @@
 +// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 +
 +/dts-v1/;
@@ -292,12 +292,6 @@ index 0000000000000..00b4c79c6bf8f
 +
 +&watchdog {
 +	status = "okay";
-+};
-+
-+&wmac {
-+	status = "okay";
-+	pinctrl-names = "default";
-+	pinctrl-0 = <&wf_2g_5g_pins>;
 +};
 diff --git a/target/linux/mediatek/filogic/base-files/etc/board.d/02_network b/target/linux/mediatek/filogic/base-files/etc/board.d/02_network
 index c2c50f6b5fd6f..750de97f36691 100644
